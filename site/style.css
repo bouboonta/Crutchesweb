@@ -1,0 +1,167 @@
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-style: italic;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100px;
+  margin: 2px 0;
+}
+
+.top-menu {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.top-menu a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000080;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+.sidebar {
+  width: 150px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: blue;
+}
+
+.content {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: "■ ";
+  color: black;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+.person-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+/* Страница “Подробное описание” */
+h3 {
+  background-color: #eaeaea;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+.short-description {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.long-description {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.features-list {
+  list-style-image: url('marker.png'); /* изображение-маркер */
+}
+
+/* Страница “Контакты” */
+input[type="text"], input[type="email"], textarea {
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+  padding: 5px;
+}
+
+.container {
+  width: 960px; /* или 1000px, если хотите чуть шире */
+  margin: 0 auto;
+  background-color: #ffffff; /* необязательно, но может улучшить вид */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* необязательная тень */
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 350px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  height: auto;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #357ab8;
+}

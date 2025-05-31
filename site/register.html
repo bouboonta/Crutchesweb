@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <nav class="top-menu">
+    <a href="index.html">Главная</a>
+    <a href="catalog.html">Каталог</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="login.html">Вход</a>
+  </nav>
+
+  <hr>
+
+  <h1>Регистрация</h1>
+
+  <form class="contact-form" method="post" action="register.php">
+    <label>Имя пользователя:<br><input type="text" name="username" required></label><br>
+    <label>Email:<br><input type="email" name="email" required></label><br>
+    <label>Пароль:<br><input type="password" name="password" required></label><br>
+    <label>Повторите пароль:<br><input type="password" name="confirm_password" required></label><br>
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+
+  <p>Уже есть аккаунт? <a href="login.html">Войдите</a></p>
+
+  <footer>
+    <hr>
+    <p style="margin-left:50%">Все права защищены.</p>
+  </footer>
+</div>
+</body>
+</html>

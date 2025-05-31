@@ -9,7 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["search_q"])) {
     }
     mysqli_set_charset($conn, 'utf8mb4');
     $search_q = mysqli_real_escape_string($conn, $search_q);
-    $query = "SELECT title_value, content FROM title WHERE title_value LIKE '$search_q%'";
+    $query = "SELECT title_value, content FROM title WHERE title_value LIKE '%$search_q%'";
+
     $result = mysqli_query($conn, $query);
 
     if (mysqli_num_rows($result) > 0) {

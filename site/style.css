@@ -120,8 +120,8 @@ h3 {
 
 /* Страница “Контакты” */
 input[type="text"], input[type="email"], textarea {
-  width: 300px;
-  height: 30px;
+  width: 100px;
+  height: 10px;
   font-size: 14px;
   color: #333;
   padding: 5px;
